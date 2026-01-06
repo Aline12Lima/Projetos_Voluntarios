@@ -8,7 +8,7 @@ export function Contact() {
         <input type="text" placeholder="Nome" className="w-full border p-3 rounded" />
         <input type="email" placeholder="Email" className="w-full border p-3 rounded" />
         <textarea placeholder="Mensagem" rows={5} className="w-full border p-3 rounded" />
-        <Button label="Enviar Mensagem" variant="primary" className="w-full" />
+        <Button variant="primary" className="w-full">Enviar Mensagem</Button>
       </form>
     </Section>
   )

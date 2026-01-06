@@ -1,6 +1,6 @@
 import { PiCoatHanger } from 'react-icons/pi';
 import { Section } from '../ui/Section';
-import { Heart, BookOpen, Stethoscope, Apple, Baby } from 'lucide-react';
+import { Heart, Apple, Baby } from 'lucide-react';
 
 const services = [
   { icon: <Apple size={40} />, title: "Combate a Fome", desc: "Distribuição pontual ou recorrente de cestas básicas para famílias em situação de vulnerabilidade extrema." },
