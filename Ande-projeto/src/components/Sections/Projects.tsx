@@ -1,9 +1,9 @@
 import { Section } from '../ui/Section';
 
 const projects = [
-  { title: "Construção da Creche", category: "Infraestrutura", image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=600&q=80" },
+  { title: "Continuar beneficiando nossas crianças", category: "Crianças", image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" },
   { title: "Maratona Solidária", category: "Evento", image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80" },
-  { title: "Horta Comunitária", category: "Sustentabilidade", image: "https://images.unsplash.com/photo-1621459535843-79e89d3fea45?auto=format&fit=crop&w=600&q=80" },
+  { title: "Arrecador roupas e cobertores", category: "Campanha Agasalho", image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=600&q=80"},
 ];
 
 export const Projects = () => {
