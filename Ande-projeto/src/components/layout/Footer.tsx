@@ -1,4 +1,4 @@
-import { Heart, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Heart, Facebook, Instagram} from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -9,7 +9,7 @@ export const Footer = () => {
         <div>
           <div className="flex items-center gap-2 font-bold text-2xl text-white mb-4">
             <Heart className="text-primary fill-primary" />
-            <span>Charity<span className="text-primary">App</span></span>
+            <span>Ande Fazendo o<span className="text-primary"> Bem</span></span>
           </div>
           <p className="text-sm leading-relaxed">
             Dedicados a melhorar a qualidade de vida de comunidades carentes através de ações diretas e sustentáveis.
@@ -23,7 +23,7 @@ export const Footer = () => {
             <li><a href="#about" className="hover:text-primary transition-colors">Quem Somos</a></li>
             <li><a href="#services" className="hover:text-primary transition-colors">Serviços</a></li>
             <li><a href="#projects" className="hover:text-primary transition-colors">Projetos</a></li>
-            <li><a href="#contact" className="hover:text-primary transition-colors">Contato</a></li>
+            
           </ul>
         </div>
 
@@ -31,34 +31,45 @@ export const Footer = () => {
         <div>
           <h4 className="text-white font-bold mb-4">Contato</h4>
           <ul className="space-y-2 text-sm">
-            <li>Rua da Esperança, 123</li>
-            <li>São Paulo - SP</li>
-            <li>contato@charityapp.org</li>
-            <li>(11) 99999-9999</li>
+        
+            <li>Extrema - MG</li>
+            <li>Andrea</li>
+            <li>(35) 99910-4624</li>
           </ul>
         </div>
 
         {/* Coluna 4: Newsletter */}
         <div>
           <h4 className="text-white font-bold mb-4">Novidades</h4>
-          <div className="flex gap-2">
-            <input 
-              type="email" 
-              placeholder="Seu e-mail" 
-              className="bg-gray-800 border border-gray-700 rounded px-3 py-2 text-sm w-full focus:outline-none focus:border-primary"
-            />
-            <button className="bg-primary px-3 py-2 rounded text-white font-bold hover:bg-orange-600">OK</button>
-          </div>
+          
+            
+          
           <div className="flex gap-4 mt-6">
-            <Facebook className="hover:text-primary cursor-pointer" size={20} />
-            <Instagram className="hover:text-primary cursor-pointer" size={20} />
-            <Twitter className="hover:text-primary cursor-pointer" size={20} />
-          </div>
+  <a
+    href="https://www.facebook.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+  >
+    <Facebook className="hover:text-primary cursor-pointer" size={20} />
+  </a>
+
+  <a
+    href="https://www.instagram.com/andelutando/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+  >
+    <Instagram className="hover:text-primary cursor-pointer" size={20} />
+  </a>
+</div>
+
+
         </div>
       </div>
       
       <div className="text-center text-xs text-gray-600 mt-12 border-t border-gray-800 pt-8">
-        © 2024 CharityApp. Todos os direitos reservados.
+        © 2024 ONG Ane Fazendo o Bem. Todos os direitos reservados.
       </div>
     </footer>
   );
