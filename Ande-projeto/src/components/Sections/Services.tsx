@@ -1,11 +1,12 @@
+import { PiCoatHanger } from 'react-icons/pi';
 import { Section } from '../ui/Section';
-import { Heart, BookOpen, Stethoscope, Apple } from 'lucide-react';
+import { Heart, BookOpen, Stethoscope, Apple, Baby } from 'lucide-react';
 
 const services = [
-  { icon: <Apple size={40} />, title: "Alimentação Saudável", desc: "Distribuímos cestas básicas e refeições nutritivas." },
-  { icon: <BookOpen size={40} />, title: "Educação para Todos", desc: "Aulas de reforço e material escolar para crianças." },
-  { icon: <Stethoscope size={40} />, title: "Cuidados Médicos", desc: "Campanhas de saúde e vacinação gratuitas." },
-  { icon: <Heart size={40} />, title: "Apoio Emocional", desc: "Psicólogos voluntários para suporte familiar." },
+  { icon: <Apple size={40} />, title: "Combate a Fome", desc: "Distribuição pontual ou recorrente de cestas básicas para famílias em situação de vulnerabilidade extrema." },
+  { icon: <Baby size={40} />, title: "Dia das Crianças", desc: "Levamos a alegria de ser criança para bairros carentes, com distribuição de brinquedos e atividades recreativas em outubro" },
+  { icon: <PiCoatHanger size={40} />, title: "Campanha Agasalho", desc: "Nos meses de inverno, mobilizamos a cidade para aquecer lares, coletando roupas e cobertores em bom estado." },
+  { icon: <Heart size={40} />, title: "Ações Solidarias", desc: "Em 2025, atendemos mais de 220 crianças, garantindo presentes e uma ceia digna para famílias da zona rural e urbana" },
 ];
 
 export const Services = () => {
