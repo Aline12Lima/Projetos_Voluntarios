@@ -23,8 +23,8 @@ export const Hero = () => {
           Nossa missão é levar educação, saúde e esperança para comunidades que precisam de apoio.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <Button variant="primary">Fazer Doação</Button>
-          <Button className="bg-white text-secondary hover:bg-gray-200">Saiba Mais</Button>
+          <Button variant="primary" href="https://wa.me/5535999104624">Fazer Doação</Button>
+          <Button className="bg-secondary text-secondary hover:bg-gray-200" href="https://wa.me/5535999104624">Saiba Mais</Button>
         </div>
       </div>
     </section>
